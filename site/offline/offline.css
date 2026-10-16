@@ -1,0 +1,10 @@
+.ofl-pill{position:fixed;left:50%;bottom:calc(16px + env(safe-area-inset-bottom));transform:translate(-50%,20px);opacity:0;z-index:2147483646;background:rgba(20,20,20,.92);color:#fff;font:500 14px/1.2 -apple-system,system-ui,sans-serif;padding:10px 16px;border-radius:999px;border:1px solid rgba(255,255,255,.18);transition:opacity .3s,transform .3s;pointer-events:none}
+.ofl-pill.on{opacity:1;transform:translate(-50%,0)}
+.ofl-lb{position:fixed;inset:0;z-index:2147483647;background:#000;display:none;align-items:center;justify-content:center}
+.ofl-lb.on{display:flex}
+.ofl-lb img{max-width:100vw;max-height:100vh;object-fit:contain;padding:env(safe-area-inset-top) 0 env(safe-area-inset-bottom)}
+.ofl-lb button{position:absolute;background:none;border:0;color:#fff;font:300 44px/1 -apple-system,system-ui,sans-serif;padding:16px 20px;cursor:pointer;opacity:.75}
+.ofl-x{top:calc(4px + env(safe-area-inset-top));right:8px}
+.ofl-prev{left:4px;top:50%;transform:translateY(-50%)}
+.ofl-next{right:4px;top:50%;transform:translateY(-50%)}
+.ofl-lb.single .ofl-prev,.ofl-lb.single .ofl-next{display:none}
